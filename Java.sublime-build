@@ -1,0 +1,20 @@
+{
+	"cmd":		[	"javac '$file' && java $file_base_name"	],
+	"shell":		true,
+	"file_regex":	"^(...*?):([0-9]*):?([0-9]*)",
+	"selector":		"source.java",
+
+	"variants":	[
+	{
+		"name":		"compile",
+		"cmd":	[	"javac '$file'"	]
+	},
+	{
+		"name":		"build folder",
+		"cmd":	[	"javac -d build/ '$file' && java -cp build/ $file_base_name"	]
+	},
+	{
+		"name":		"Jar",
+		"cmd":	[	"javac '$file' -d build/ && jar cvfe $file_base_name.jar $file_base_name -C build/ . && java -jar $file_base_name.jar"	]
+	}]
+}

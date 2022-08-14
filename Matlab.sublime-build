@@ -1,0 +1,4 @@
+{
+    "cmd":		["/Applications/matlab.app/bin/matlab -nodesktop -nosplash < $file_name"],
+    "selector":	"source.matlab"
+}

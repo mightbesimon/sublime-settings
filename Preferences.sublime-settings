@@ -1,0 +1,46 @@
+{
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"font_size": 14,
+	"mini_diff": "auto",
+	"folder_exclude_patterns":
+	[
+		"__pycache__",
+		".pytest_cache"
+	],
+	"file_exclude_patterns": [
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		".directory",
+		"desktop.ini",
+		"*.class",
+		"*.psd",
+		// "*.db",
+		"*.sublime-workspace"
+	],
+	"ignored_packages":
+	[
+		"PythonREPL",
+		"Swift",
+		"Vintage",
+	],
+	"scroll_past_end": 0.25,
+	"caret_style": "smooth",
+	"caret_extra_top": 2,
+	"caret_extra_bottom": 2,
+	"trim_trailing_white_space_on_save": "all",
+}

@@ -1,0 +1,6 @@
+{
+	"cmd":		[	"gcc '$file' -o $file_base_name && ./$file_base_name"	],
+	"shell":		true,
+	"file_regex":	"^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"selector":		"source.c"
+}
